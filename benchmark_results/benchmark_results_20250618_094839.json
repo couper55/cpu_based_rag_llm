@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What are the main types of machine learning?",
+    "category": "ml_fundamentals",
+    "avg_response_time": 3.298837423324585,
+    "avg_memory_usage": 248.484375,
+    "avg_cpu_usage": 44.85,
+    "avg_source_coverage": 0.0,
+    "avg_num_relevant_docs": 1,
+    "avg_top_doc_score": 0.6320286989212036
+  },
+  {
+    "query": "What statistical methods are used in data science?",
+    "category": "statistics",
+    "avg_response_time": 2.3687531153361,
+    "avg_memory_usage": -1.6067708333333333,
+    "avg_cpu_usage": 52.96666666666667,
+    "avg_source_coverage": 0.0,
+    "avg_num_relevant_docs": 1,
+    "avg_top_doc_score": 0.6169260144233704
+  },
+  {
+    "query": "What visualization techniques are available?",
+    "category": "visualization",
+    "avg_response_time": 1.175782839457194,
+    "avg_memory_usage": 0.4361979166666667,
+    "avg_cpu_usage": 47.56666666666667,
+    "avg_source_coverage": 0.0,
+    "avg_num_relevant_docs": 1,
+    "avg_top_doc_score": 0.44544631242752075
+  },
+  {
+    "query": "What are common machine learning applications?",
+    "category": "ml_applications",
+    "avg_response_time": 1.6274591286977131,
+    "avg_memory_usage": 0.11848958333333333,
+    "avg_cpu_usage": 51.06666666666666,
+    "avg_source_coverage": 0.0,
+    "avg_num_relevant_docs": 1,
+    "avg_top_doc_score": 0.5745275020599365
+  }
+]
