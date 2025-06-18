@@ -31,7 +31,15 @@ Or install manually:
 pip install fastapi streamlit sentence-transformers faiss-cpu llama-cpp-python PyPDF2 uvicorn matplotlib seaborn pandas
 ```
 
-> **Note:** You need a compatible `.gguf` model file for `llama.cpp` (e.g., LLaMA-3-1B) placed in `./models`. So create a models folder in the present working directory and upload a model in .gguf format. I have personally used LLaMA-3-1B because i was facing hallucination problem with other models (tinyllama, microsoft/DialoGPT-medium)
+> **Note:**  
+> You need a compatible `.gguf` model file for `llama.cpp` (e.g., **LLaMA-3-1B**) placed inside a `./models` folder in your current working directory.  
+> I have personally used **LLaMA-3-1B** after facing hallucination issues with smaller models like **TinyLLaMA** and **microsoft/DialoGPT-medium**.  
+>
+> ⚠️ **Upload Functionality Limitation:**  
+> The current **upload document** feature in the RAG LLM pipeline works reliably for **1-page documents** only.  
+> This is a **proof of concept (PoC)** developed and tested on a machine with **8 GB of RAM**.  
+> With increased memory, the solution can be **scaled to support larger documents and multi-file ingestion**.
+
 
 ---
 
