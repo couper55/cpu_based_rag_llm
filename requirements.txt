@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+streamlit
+sentence-transformers
+faiss-cpu
+llama-cpp-python
+PyPDF2
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+torch
+pyyaml
