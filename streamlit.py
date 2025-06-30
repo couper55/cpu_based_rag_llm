@@ -1,8 +1,3 @@
-"""
-Streamlit Interface for CPU-Optimized RAG Pipeline
-Interactive web interface for document Q&A
-"""
-
 import streamlit as st
 import os
 import json
